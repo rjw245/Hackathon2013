@@ -11,8 +11,8 @@ parseCourses function to return an array of the information presented in the pag
 The script makes use of the Nokogiri HTML parsing library for Ruby, and
 regular expressions (lots and lots) to parse the page's English sentences into an array.
 
-The script was created during the Tufts University 2013 Hackathon for use on RaptorScheme (http://sethdrew.com/alex),
-a site used to organize Tufts courses visually to show which classes are prerequisites for other classes and
+The script was created during the Tufts University 2013 Hackathon for use with RaptorScheme, our main project for the event (http://sethdrew.com/alex).
+RaptorScheme (whose name is inspired by http://raptorattack.com/) is a site used to organize Tufts courses visually to show which classes are prerequisites for other classes and
 help students plan out their majors and course distribution. This script is run to scrape the department semi-regularly
 and parse the information into an array which is later made into a JSON format. This is used on the webpage to
 dynamically render courses. In essence, our script keeps the cached set of courses up to date.
