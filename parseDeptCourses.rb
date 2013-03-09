@@ -1,5 +1,6 @@
+#Run at command line with -rubygems parameter (make sure you have rubygems)
 require 'open-uri'
-require 'json'
+require 'json'     #install with rubygems
 require 'nokogiri' #install with rubygems
 
 #Array of courses:
